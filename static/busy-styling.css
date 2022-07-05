@@ -2,6 +2,8 @@
 width: 100vh;
 height: 300px;
 margin-top: 50px;
+margin-bottom: 10px;
+border-radius: 5px;
 }
 
 .card {
@@ -11,4 +13,11 @@ margin-top: 50px;
     margin-bottom: 20px;
     
 
+}
+
+#profile {
+    width: auto;
+    height: 300px;
+    margin-top: 1rem;
+    border-radius: 0.5px;
 }
