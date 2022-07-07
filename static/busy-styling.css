@@ -4,6 +4,13 @@ height: 300px;
 margin-top: 50px;
 margin-bottom: 10px;
 border-radius: 5px;
+
+
+}
+
+h1 {
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card {
@@ -15,9 +22,28 @@ border-radius: 5px;
 
 }
 
+.text-center {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+p {
+    font-family: sans-serif;
+    font-size:100%;
+}
+
 #profile {
-    width: auto;
-    height: 300px;
+    width: 17rem;
+    height: 400px;
     margin-top: 1rem;
     border-radius: 0.5px;
 }
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/static/homepage_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
