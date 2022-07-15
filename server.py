@@ -34,26 +34,9 @@ def packages_price():
 
 @app.route('/about')
 def about_me():
-    """Show about me page."""
+    """Show about  page."""
 
     return render_template('about.html')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
